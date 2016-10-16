@@ -38,7 +38,7 @@ PokerHand.prototype.sortCards = function(cards) {
     return cards;
 };
 
-// is lc better than the rc
+// is left card better than the right card
 PokerHand.prototype.betterThan = function(lc, rc) {
     var weights = this.weights;
     
